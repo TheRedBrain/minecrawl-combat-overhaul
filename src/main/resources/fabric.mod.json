@@ -1,41 +1,42 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "minecrawlcombatoverhaul",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Minecrawl",
+	"description": "A mod about dungeon crawling in Minecraft",
 	"authors": [
-		"Me!"
+		"TheRedBrain"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/TheRedBrain/minecrawl"
 	},
-	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"license": "MIT",
+	"icon": "assets/minecrawlcombatoverhaul/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.github.theredbrain.minecrawlcombatoverhaul.MinecrawlCombatOverhaul"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.github.theredbrain.minecrawlcombatoverhaul.MinecrawlCombatOverhaulClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"minecrawlcombatoverhaul.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "minecrawlcombatoverhaul.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.17.3",
-		"minecraft": "~1.21.10",
-		"java": ">=21",
-		"fabric-api": "*"
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "${minecraft_version}",
+		"fabric-api": "*",
+		"variousstatuseffects": ">=${various_status_effects_version}",
+		"scriptblocks": ">=${script_blocks_version}"
 	},
 	"suggests": {
-		"another-mod": "*"
+		"spell_engine": "*",
+		"spellengineextension": "*"
 	}
 }

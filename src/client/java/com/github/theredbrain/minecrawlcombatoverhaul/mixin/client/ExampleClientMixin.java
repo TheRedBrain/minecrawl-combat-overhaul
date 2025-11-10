@@ -1,4 +1,4 @@
-package com.example.mixin.client;
+package com.github.theredbrain.minecrawlcombatoverhaul.mixin.client;
 
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Mixin;
