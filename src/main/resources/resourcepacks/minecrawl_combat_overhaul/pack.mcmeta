@@ -1,0 +1,24 @@
+{
+  "pack": {
+    "description": {
+      "text": "This is a complete overhaul of the combat system.\nIncluding rebalanced attribute defaults, weapon specific attacks, integrations of Mana Attributes, Stamina Attributes and Overhauled Damage."
+    },
+    "pack_format": 48
+  },
+     "filter": {
+       "block": [
+         {
+           "namespace": "trinkets",
+           "path": "entities/spell_engine.json"
+         },
+         {
+           "namespace": "trinkets",
+           "path": "entities/jewelry.json"
+         },
+         {
+           "namespace": "trinkets",
+           "path": "entities/relics_rpg.json"
+         }
+       ]
+     }
+}
