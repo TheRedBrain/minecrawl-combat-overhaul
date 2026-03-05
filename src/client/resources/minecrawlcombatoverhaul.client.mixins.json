@@ -1,10 +1,11 @@
 {
-	"required": true,
-	"package": "com.github.theredbrain.minecrawlcombatoverhaul.mixin.client",
-	"compatibilityLevel": "JAVA_21",
-	"client": [
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "com.github.theredbrain.minecrawlcombatoverhaul.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "render.entity.PlayerEntityRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }

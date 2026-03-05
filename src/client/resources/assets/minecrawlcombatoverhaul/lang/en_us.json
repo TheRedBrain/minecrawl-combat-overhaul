@@ -1,0 +1,18 @@
+{
+  "effect.minecrawlcombatoverhaul.frozen_shot_spell": "Frozen Shot",
+  "effect.minecrawlcombatoverhaul.power_shot_spell": "Power Shot",
+  "effect.minecrawlcombatoverhaul.remove_ranged_attacks_modifier_spell_effects": "Remove Ranged Attacks Modifiers",
+
+  "item.minecrawlcombatoverhaul.spell_casting_crossbow_1": "Crossbow",
+  "item.minecrawlcombatoverhaul.spell_casting_crossbow_2": "Rapid Crossbow",
+  "item.minecrawlcombatoverhaul.spell_casting_crossbow_3": "Heavy Crossbow",
+  "item.minecrawlcombatoverhaul.spell_casting_crossbow_4": "Netherite Rapid Crossbow",
+  "item.minecrawlcombatoverhaul.spell_casting_crossbow_5": "Netherite Heavy Crossbow",
+  "item.minecrawlcombatoverhaul.spell_casting_crossbow_6": "Heavy Crossbow of the Phoenix",
+  "item.minecrawlcombatoverhaul.spell_casting_crossbow_7": "Necropolis Ballista",
+  "item.minecrawlcombatoverhaul.spell_casting_crossbow_8": "Crossbow of Relentless Strikes",
+  "item.minecrawlcombatoverhaul.spell_casting_crossbow_9": "Aether Rapid Crossbow",
+  "item.minecrawlcombatoverhaul.spell_casting_crossbow_10": "Aether Heavy Crossbow",
+  "item.minecrawlcombatoverhaul.spell_casting_crossbow_11": "Ruby Rapid Crossbow",
+  "item.minecrawlcombatoverhaul.spell_casting_crossbow_12": "Ruby Heavy Crossbow"
+}
